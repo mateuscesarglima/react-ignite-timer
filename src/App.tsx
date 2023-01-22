@@ -1,14 +1,17 @@
 import { Button } from "@components/ui/atom/Button";
 import { ThemeProvider } from "styled-components";
-import { defaultTheme } from "./themes/index";
+import { defaultTheme } from "./styles/themes/index";
+import { GlobalStyle } from "@styles/global";
+import { Router } from "@routes/Router";
+import { BrowserRouter } from "react-router-dom";
 
 export function App() {
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <Button variant="danger" />
-      <Button variant="primary" />
-      <Button variant="secondary" />
-      <Button variant="success" />
-    </ThemeProvider>
+    <BrowserRouter>
+      <ThemeProvider theme={defaultTheme}>
+        <Router />
+        <GlobalStyle />
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }

@@ -10,6 +10,7 @@
       "@types/*": ["./types/*"],
       "@interfaces/*": ["./interfaces/*"],
       "@utils/*": ["./utils/*"],
+      "@routes/*": ["./routes/*"],
       "@constants/*": ["./constants/*"]
     },
     "useDefineForClassFields": true,

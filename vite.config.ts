@@ -43,6 +43,10 @@ export default defineConfig({
         find: "@utils",
         replacement: resolve(__dirname, "./src/utils"),
       },
+      {
+        find: "@routes",
+        replacement: resolve(__dirname, "./src/routes"),
+      },
     ],
   },
 });
