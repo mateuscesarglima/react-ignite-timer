@@ -1,5 +1,5 @@
-import { Header } from "@components/ui/organism/Header";
+import { Header } from "@components/ui/organism/Header/Header";
 
 export const Home = () => {
-  return <Header />;
+  return <div>Home</div>;
 };

@@ -47,6 +47,10 @@ export default defineConfig({
         find: "@routes",
         replacement: resolve(__dirname, "./src/routes"),
       },
+      {
+        find: "@layouts",
+        replacement: resolve(__dirname, "./src/layouts"),
+      },
     ],
   },
 });

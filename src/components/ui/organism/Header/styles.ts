@@ -10,6 +10,6 @@ export const HeaderContainer = styled.header`
 
 export const LogoBox = styled.div``;
 
-export const RightSideHeader = styled.div``;
+export const RightSideHeadeMenur = styled.div``;
 
 export const MenuItem = styled.img``;
