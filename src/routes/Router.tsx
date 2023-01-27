@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Home } from "@containers/Home";
-import { History } from "@containers/History/History";
+import { History } from "@containers/History";
 import { DefaultLayout } from "@layouts/DefaultLayout";
 
 export const Router = () => {
