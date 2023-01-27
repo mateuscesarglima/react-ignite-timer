@@ -1,6 +1,6 @@
 import logo from "@assets/logo.png";
 import { Scroll, Timer } from "phosphor-react";
-import { Navbar } from "../../molecule/Navbar/Navbar";
+import { Navbar } from "../../molecule/Navbar";
 import * as C from "./styles";
 
 export const Header = () => {

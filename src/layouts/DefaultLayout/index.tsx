@@ -1,4 +1,4 @@
-import { Header } from "@components/ui/organism/Header/Header";
+import { Header } from "@components/ui/organism/Header";
 import { Outlet } from "react-router-dom";
 import { LayoutContainer } from "./styles";
 

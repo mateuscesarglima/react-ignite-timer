@@ -13,10 +13,6 @@ const buttonVariants = {
   success: "green",
 };
 
-export const teste = {
-  test: "teste",
-};
-
 export const ButtonContainer = styled.button<ButtonContainerProps>`
   width: 100px;
   height: 40px;
