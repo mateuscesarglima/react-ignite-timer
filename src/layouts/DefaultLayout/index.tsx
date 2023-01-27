@@ -1,13 +1,13 @@
 import { Header } from "@components/ui/organism/Header/Header";
-import React from "react";
 import { Outlet } from "react-router-dom";
+import { LayoutContainer } from "./styles";
 
 export const DefaultLayout = () => {
   return (
-    <div>
+    <LayoutContainer>
       <Header />
       <Outlet />
       {/* Espaço para ser inserido um conteudo */}
-    </div>
+    </LayoutContainer>
   );
 };

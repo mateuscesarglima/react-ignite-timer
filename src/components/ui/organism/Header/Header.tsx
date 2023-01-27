@@ -6,9 +6,7 @@ import * as C from "./styles";
 export const Header = () => {
   return (
     <C.HeaderContainer>
-      <C.LogoBox>
-        <img src={logo} alt="logo image" />
-      </C.LogoBox>
+      <img src={logo} alt="logo image" />
       <Navbar />
     </C.HeaderContainer>
   );

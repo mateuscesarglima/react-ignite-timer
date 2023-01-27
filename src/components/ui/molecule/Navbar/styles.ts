@@ -2,12 +2,27 @@ import styled from "styled-components";
 
 export const NavBarContainer = styled.nav`
   display: flex;
-  gap: 1.8rem;
+  gap: 0.5rem;
 
-  svg {
+  a {
+    width: 3rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: ${({ theme }) => theme["gray-100"]};
+
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+
     &:hover {
-      display: block;
-      border-bottom: 2px solid ${(props) => props.theme["green-500"]};
+      border-bottom: 3px solid ${({ theme }) => theme["green-500"]};
+    }
+
+    &.active {
+      color: ${(props) => props.theme["green-500"]};
     }
   }
 `;
